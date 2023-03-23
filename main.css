@@ -1,0 +1,40 @@
+body {
+    background-color: #0d141f;
+     animation-name: color;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+   }
+   
+   div {
+     z-index: -1px;
+     width: 200px;
+     height: 100px;
+     rotate: -5deg;
+     background-color: black;
+     animation-name: rotate;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+   }
+   
+   h1 {
+     z-index: 1px;
+     rotate: -6deg;
+     font-family: arial;
+     color: white;
+     font-size: 26px;
+     animation-name: rotate2;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+   }
+   
+   @keyframes rotate {
+     50% {rotate: 5deg;}
+     100% {rotate: -5deg;}
+   }
+   
+   @keyframes rotate2 {
+     25% {rotate: 6deg;   font-size: 25px;}
+     50% {rotate: -6deg;   font-size: 26px;}
+     75% {rotate: 6deg;   font-size: 25px;}
+     100% {rotate: -6deg;   font-size: 26px;}
+   }
