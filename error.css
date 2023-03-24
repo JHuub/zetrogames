@@ -1,0 +1,16 @@
+body {
+    background-color: #0d141f;
+   }
+
+   h1 {
+     font-size: 23px;
+     font-family: arial;
+     color:rgb(100, 103, 114);
+   }
+
+   div {
+     background-color: rgb(8, 7, 12);
+     margin: -8px;
+     width: auto;
+     height: 200px;
+   }
