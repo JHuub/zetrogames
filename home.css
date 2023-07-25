@@ -1,0 +1,273 @@
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+.top {
+    width: auto;
+    margin: -8px;
+    background-color: black;
+    height: 70px;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .sigjj {
+       transform: translateX(-90px);
+    }
+ }
+
+article {
+    font-family: Arial;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+article:hover {
+    font-size: 25px;
+    filter: brightness(150%);
+}
+
+.content-wrapper {
+    margin: -8px;
+    background-color: rgba(233, 32, 32, 0);
+    width: 90%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+/* Content Items Left Front and Center */
+
+.Content-Item_Left {
+    width: 200px;
+    height: 180px;
+    background-color: black;
+    border-radius: 15px;
+    transition: 0.4s;
+    padding-left: 15px;
+    cursor: pointer;
+    transform: 0.4s;
+}
+
+.content-display-img {
+    width: 200px;
+    height: 180;
+    border-radius: 15px;
+    padding-left: 0px;
+    filter: opacity(50%);
+}
+
+.Content-Item_Left:hover {
+    transform: translateY(-5px);
+    transform: scale(110%);
+}
+
+h2 {
+    font-family: Arial Black;
+    color: #48a7ff;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bottom {
+    font-family: Arial;
+    color: #3376c4;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#updates {
+    font-family: Arial Black;
+    color: #3335c4;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Blue {
+    color: #3355c4;
+}
+
+#Purple {
+    color: #c433b8;
+}
+
+#Green {
+    color: #33c47c;
+}
+
+#Yellow {
+    color: #e2b332;
+}
+
+#Red {
+    color: #c44933;
+}
+
+.topdiv1 {
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    height: 300px;
+    padding-top: 45px;
+    transition: 0.4s;
+}
+
+
+
+
+
+.Content-Name {
+    font-size: larger;
+    font-family: "Arial Black";
+    color: #48a7ff;
+    padding-left: 10px;
+    padding-top: 10px ;
+    cursor: pointer;
+}
+ .Tag {
+    font-size: 13px;
+    font-family: "Arial Black";
+    color: rgb(92, 92, 92);
+    cursor: pointer;
+ }
+
+ .Zag {
+    font-size: 13px;
+    font-family: "Arial Black";
+    color: rgb(44, 62, 223);
+    cursor: pointer;
+ }
+
+ .OS {
+    font-size: 13px;
+    font-family: "Arial Black";
+    color: rgb(123, 54, 233);
+    cursor: pointer;
+ }
+
+/* Content Items Left Front and Center */
+
+.z-logo {
+    float: left;
+    transition: 0.4s;
+}
+
+.z-logo:hover {
+    filter: drop-shadow(0px 0px 18px #48a7ff);
+}
+
+.All {
+    font-size: x-large;
+    font-family: "Arial Black";
+    font-weight: 500;
+    color: #48a7ff;
+    padding-left: 20px;
+}
+
+
+/* Img Sources */
+#Popular-N1 {
+    background-image: url(https://i.ibb.co/D7LjGrw/ong-awdi3n3.png);
+}
+/* End of Img Sources */
+
+.sigjj {
+    background-color: rgba(0, 0, 0, 0);
+    width: 800px;
+    height: 70px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.joinbtn {
+    background-color: rgb(53, 58, 124);
+    border:0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: "Arial Black";
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 60px;
+    transition: 0.4s;
+}
+
+.crtbtn {
+    background-color: rgb(73, 136, 218);
+    border:0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: "Arial Black";
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 60px;
+    transition: 0.4s;
+}
+
+
+.options {
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    width: 300px;
+    height: 70px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.homebtn {
+    background-color: rgb(248, 115, 115);
+    border:0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: "Arial Black";
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 60px;
+    transition: 0.4s;
+}
+
+.gamesbtn {
+    background-color: rgb(57, 151, 65);
+    border: 0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: "Arial Black";
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 60px;
+    transition: 0.4s;
+}
+
+#topbutton1:hover {
+   filter: brightness(80%);
+}
+
+
+.imgbtn {
+    background-color: rgb(221, 173, 39);
+    border: 0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: "Arial Black";
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 100px;
+    transition: 0.4s;
+}
+
+.vidbtn {
+    background-color: rgb(80, 16, 75);
+    border: 0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: "Arial Black";
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 60px;
+    transition: 0.4s;
+}
