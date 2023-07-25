@@ -1,0 +1,91 @@
+body {
+background: rgb(10,16,26);
+}
+
+
+textarea {
+    background-color: rgb(31, 32, 49);
+    font-family: arial;
+    color: rgb(54, 133, 236);
+    padding: 7px;
+    border: 0px;
+    border-radius: 0px;
+    animation-name: fade-in;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+  }
+
+  textarea:focus{
+    outline: 0px;
+  }
+
+  .submit {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #12a0ff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 0ch;
+    animation: rotate 2s ease-in-out 0s infinite;
+  }
+
+  @keyframes rotate {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(10deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-10deg);}
+    100% {transform: rotate(0deg);}
+    
+  }
+  
+  .submit:hover {
+    background: #3cb0fd;
+  }
+
+  input {
+    background-color: rgb(31, 32, 49);
+    font-family: arial;
+    color: rgb(54, 133, 236);
+    padding: 7px;
+    border: 0px;
+    border-radius: 0px;
+  }
+
+
+  input:hover {
+    border: 0px;
+    cursor: pointer;
+  }
+
+  input:focus {
+    outline-width: 0px;
+    cursor: pointer;
+}
+
+  p {
+    font-family: arial;
+    color:rgba(54, 133, 236, 0.644);
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 25px;
+    color: rgb(54, 133, 236);
+    font-family: arial;
+  }
+
+  h1 {
+    font-size: 35px;
+    color: rgb(47, 109, 245);
+    font-family: arial;
+  }
+
+  #feed0back {
+    width: 250px;
+  }

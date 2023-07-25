@@ -1,0 +1,139 @@
+body {
+  background: rgb(4,5,34);
+  background: linear-gradient(83deg, rgba(4,5,34,1) 0%, rgba(0,0,0,1) 50%, rgba(4,5,34,1) 100%);
+  }
+  
+  h1 {
+    font-family: "Arial Black";
+    color:aliceblue;
+  }
+
+  img {
+    height: 100px;
+    width: 100px;
+    animation-name: intro-size;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    filter: drop-shadow(0px 0px 25px #308be0a6);
+  }
+
+  @keyframes intro-size {
+    0% {height:150px;width:150px;}
+    50% {height:150px;width:150px;}
+    100% {height:100px;width:100px;}
+  }
+
+  textarea {
+    background-color: rgb(31, 32, 49);
+    font-family: "Arial Black";
+    color: rgb(54, 133, 236);
+    padding: 7px;
+    border: 0px;
+    border-radius: 0px;
+    animation-name: fade-in;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+  }
+
+  textarea:focus{
+    outline: 0px;
+  }
+
+  hr {
+    color: #21a6fffa;
+    width: 28%;
+    height: 5px;
+    background: #21a6fffa;
+    border:black;
+    animation-name: intro-hr;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+
+  }
+
+  @keyframes intro-hr {
+    from {width:0%;color:#12a0ff00;}
+    to {width:28%;color:#12a0ff67;}
+  }
+
+  @keyframes fade-in {
+    from{opacity: 0%;filter: blur(15px);top: 10px;}
+    to {opacity: 100%;filter: blur(0px);top: 0px;}
+  }
+
+  @keyframes shake {
+    17% {transform: rotate(6deg); filter: brightness(120%);}
+    34% {transform: rotate(-6deg); filter: brightness(100%);}
+    51% {transform: rotate(6deg); filter: brightness(120%);}
+    68% {transform: rotate(-6deg); filter: brightness(100%);}
+    100% {transform: rotate(0deg); filter: brightness(120%);}
+}
+
+  .submit {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: "Arial Black";
+    color: #ffffff;
+    font-size: 20px;
+    background: #12a0ff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 0ch;
+    animation-name: shake;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3.5s;
+    transform: rotate(0deg);
+    
+  }
+  
+  .submit:hover {
+    background: #3cb0fd;
+  }
+
+  input {
+    background-color: rgb(31, 32, 49);
+    font-family: "Arial Black";
+    color: rgb(54, 133, 236);
+    padding: 7px;
+    border: 0px;
+    border-radius: 0px;
+    animation-name: fade-in;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    transition: 0.4s;
+  }
+
+
+  input:hover {
+    border: 0px;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 25px #1315863f);
+  }
+
+  input:focus {
+    outline-width: 0px;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 25px #1d40a37e);
+}
+
+  p {
+    font-family: arial;
+    color:rgba(54, 133, 236, 0.644);
+    font-size: 15px;
+    animation-name: fade-in;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+  }
+
+  h2 {
+    font-size: 25px;
+    color: rgb(54, 133, 236);
+    font-family: "Arial Black";
+    animation-name: fade-in;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+  }

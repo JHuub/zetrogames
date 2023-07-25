@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WFFSX1C3S"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1WFFSX1C3S');
+        </script>
+        <title>ZetroGames - Upload</title>
+        <link rel="icon" href="https://i.ibb.co/bbkY4Xz/zetrogames-logo.png">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="upload.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <center><div class="main-content">
+    <form action="https://formspree.io/f/xrgvwlvj" method="POST">
+    <br>
+    <h3>Upload Content</h3>
+    <br>
+    <br>
+    <h1>Content Name</h1>
+    <input type="ContentName" name="ContentName">
+    <br>
+    <br>
+    <br>
+    <h1>Give a Description</h1>
+    <br>
+    <input id="Description" type="ContentDescription" name="ContentDescription" required minlength="10" maxlength="100">
+    <br>
+    <br>
+    <br>
+    <h1>What type of content is this?</h1>
+    <br>
+    <select class="select" type="Catagorys" name="catagory" required>
+        <option value="None" disabled selected>Pick a Catagory</option>
+        <option value="Videos">Videos</option>
+        <option value="Art">Art</option>
+        <option value="Images">Images</option>
+        <option value="Games">Games</option>
+      </select>
+    <br>
+    <br>
+    <br>
+    <h1>If needed pick a Zag</h1>
+    <br>
+    <select id="Zags" class="select" type="Zags" name="zag">
+        <option value="None" disabled selected>Pick a Zag</option>
+        <option value="Action">^Action</option>
+        <option value="Horror">^Horror</option>
+        <option value="Adventure">^Adventure</option>
+        <option value="Animations">^Animations</option>
+        <option value="fnaf">^fnaf</option>
+        <option value="Unertale">^Undertale</option>
+        <option value="fnf">^fnf</option>
+        <option value="Memes">^Memes</option>
+        <option value="Shooter">^Shooter</option>
+        <option value="VR">^VR</option>
+      </select>
+    <br>
+    <br>
+    <br>
+    <h1>Link to the content you are uploading</h1>
+    <br>
+    <input type="ContentLink" name="Link" required>
+    <br>
+    <br>
+    <br>
+    <h1>Your Account Name</h1>
+    <br>
+    <input  type="AccountDetails" name="AccountDetails" required >
+    <br>
+    <br>
+    <br>
+    <h1>The Account Release Key</h1>
+    <br>
+    <input type="AccountDetails" name="AccountDetails" required minlength="5" maxlength="5">
+    <br>
+    <br>
+    <br>
+    <button class="submit" type="submit">Submit</button>
+    <br>
+    <br>
+    <br>
+    </form>
+    </div>
+    </body>
+</html

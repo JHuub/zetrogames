@@ -1,0 +1,145 @@
+body {
+    background: rgb(4, 6, 8);
+}
+
+.main-content {
+  background-color: #131a22;
+  background: linear-gradient(0deg, rgba(19,26,34,0.87718837535014) 0%, rgba(19,26,34,1) 40%);
+  height: 2000px;
+  width: 700px;
+  margin-top: -8px;
+  animation-name: blur-in;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  filter: drop-shadow(0px 0px 100px #131a2271);
+  
+}
+
+@media only screen and (max-width: 800px) {
+  .main-content {
+    width: 400px;
+  }
+}
+
+#Description {
+  width: 300px;
+}
+
+#Logo-subs {
+  opacity: 70%;
+}
+
+@keyframes blur-in {
+  from {filter: blur(5px);}
+  to {filter:blur(0px);}
+}
+
+#Logo-icons {
+  height: 100px;
+  width: 100px;
+}
+
+h1 {
+    font-family: Arial Black;
+    color: rgb(53, 147, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h3 {
+  font-family: Arial Black;
+  color: rgb(88, 155, 233);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+textarea {
+    background-color: rgb(31, 32, 49);
+    font-family: Arial Black;
+    color: rgb(54, 133, 236);
+    padding: 7px;
+    border: 0px;
+    border-radius: 0px;
+    animation-name: fade-in;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+  }
+
+  textarea:focus{
+    outline: 0px;
+    width: 600px;
+    height: 400px;
+  }
+
+  select {
+     background-color: #131a22;
+     border: 0px;
+     font-family: Arial Black;
+     color:#12a0ff;
+     font-size: 15px;
+     width:170px;
+  }
+
+  select:focus {
+    border: 0px;
+  }
+
+  select:hover {
+    border: 0px;
+  }
+
+  option {
+    border-radius: 0px;
+    border: 0px;
+  
+  }
+
+  #Zags {
+    color: #123eff;
+  }
+
+  .submit {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial Black;
+    color: #ffffff;
+    font-size: 20px;
+    background: #12a0ff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 0ch;
+    animation: rotate 2s ease-in-out 0s infinite;
+  }
+
+  hr {
+    color: rgb(62, 107, 255);
+    width: 28%;
+    height: 5px;
+    background: rgb(62, 107, 255);
+    border:black;
+  }
+
+  input {
+    background-color: rgb(8, 8, 8);
+    font-family: Arial Black;
+    color: #ffffff;
+    color: rgb(54, 133, 236);
+    padding: 7px;
+    border: 0px;
+    border-radius: 0px;
+  }
+
+
+  input:hover {
+    border: 0px;
+    cursor: pointer;
+  }
+
+  input:focus {
+    outline-width: 0px;
+    cursor: pointer;
+}
+
