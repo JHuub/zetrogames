@@ -1,0 +1,53 @@
+h1 {
+    font-family: "Arial Black";
+    font-size: 140px;
+    font-weight: bold;
+    rotate: 5;
+    color: rgba(32, 160, 245, 0.596);
+    animation-name: shake;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3.5s;
+    transform: rotate(0deg);
+}
+
+p {
+    font-family: "Arial Black";
+    font-size: 20px;
+    color: rgb(126, 169, 207);
+}
+
+
+
+img {
+    margin:-8px;
+}
+
+body {
+    background-color: rgb(8, 8, 8);
+}
+
+img {
+  transition: 0.4s;
+  filter: brightness(100%);
+  transform: translateX(-50px);
+  transform: translateY(15px);
+}
+
+img:hover {
+    transform: rotate(5deg);
+    filter: brightness(150%);
+}
+
+article {
+    font-family: "Arial Black";
+    font-size: 13px;
+    color: rgb(50, 80, 212);
+}
+
+@keyframes shake {
+    17% {transform: rotate(6deg);}
+    34% {transform: rotate(-6deg);}
+    51% {transform: rotate(6deg);}
+    68% {transform: rotate(-6deg);}
+    100% {transform: rotate(0deg);}
+}
