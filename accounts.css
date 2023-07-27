@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+.top_banner {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    width: 100%;
+    height: 200px;
+    margin: -8px;
+}
+
+.top_badges {
+    background-color: rgba(240, 248, 255, 0);
+    width: 50%;
+    height: auto;
+    padding-left: 40px;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 40px;
+    animation-name: loadinusername;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.4s;
+}
+
+/* BADGES */
+
+.badge {
+    border-radius: 5px;
+    background-color: rgb(69, 142, 252);
+    border: 0px;
+    color: rgb(8, 31, 51);
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 100px;
+    height: 35px;
+    transition: 0.4s;
+}
+
+.XL  {
+    border-radius: 5px;
+    background-color: rgb(255, 92, 174);
+    border: 0px;
+    color: rgb(8, 31, 51);
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 50px;
+    height: 35px;
+    transition: 0.4s;
+}
+
+
+button:hover {
+    filter: brightness(130%);
+}
+
+/* BADGES */
+
+#pb {
+    background: linear-gradient(90deg, rgb(24, 2, 32) 0%, rgba(51, 11, 56, 0) 100%);
+}
+
+#p {
+    color: rgb(184, 62, 255);
+}
+
+#n {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+  }
+
+p {
+    font-family: arial;
+    font-size: 30px;
+    color:rgb(56, 159, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content-holder {
+    background-color: black;
+    width: 400px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.content-holder:hover {
+   background-color: black;
+}
+
+@keyframes loadinusername {
+    from{filter: opacity(0%);font-size: 10px;}
+    to{filter: opacity(100%);font-size: 50px;}
+}
