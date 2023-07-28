@@ -11,14 +11,10 @@ body {
     padding-left: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    .sigjj {
-       transform: translateX(-90px);
-    }
- }
 
 article {
     font-family: Arial;
+    font-weight: bold;
     color: aliceblue;
     font-size: 20px;
     cursor: pointer;
@@ -68,6 +64,7 @@ article:hover {
 
 h2 {
     font-family: Arial;
+    font-weight: 4900;
     color: #48a7ff;
     font-size: 50px;
     font-weight: bold;
@@ -76,6 +73,7 @@ h2 {
 
 .bottom {
     font-family: Arial;
+    font-weight: bold;
     color: #3376c4;
     font-size: 30px;
     font-weight: bold;
@@ -92,22 +90,27 @@ h2 {
 
 #Blue {
     color: #3355c4;
+    font-weight: bold;
 }
 
 #Purple {
     color: #c433b8;
+    font-weight: bold;
 }
 
 #Green {
     color: #33c47c;
+    font-weight: bold;
 }
 
 #Yellow {
     color: #e2b332;
+    font-weight: bold;
 }
 
 #Red {
     color: #c44933;
+    font-weight: bold;
 }
 
 .topdiv1 {
@@ -125,6 +128,7 @@ h2 {
 .Content-Name {
     font-size: larger;
     font-family: Arial;
+    font-weight: bold;
     color: #48a7ff;
     padding-left: 10px;
     padding-top: 10px ;
@@ -133,6 +137,7 @@ h2 {
  .Tag {
     font-size: 13px;
     font-family: Arial;
+    font-weight: bold;
     color: rgb(92, 92, 92);
     cursor: pointer;
  }
@@ -140,6 +145,7 @@ h2 {
  .Zag {
     font-size: 13px;
     font-family: Arial;
+    font-weight: bold;
     color: rgb(44, 62, 223);
     cursor: pointer;
  }
@@ -147,6 +153,7 @@ h2 {
  .OS {
     font-size: 13px;
     font-family: Arial;
+    font-weight: bold;
     color: rgb(123, 54, 233);
     cursor: pointer;
  }
@@ -179,7 +186,7 @@ h2 {
 
 .sigjj {
     background-color: rgba(0, 0, 0, 0);
-    width: 800px;
+    width: 60%;
     height: 70px;
     padding-top: 10px;
     padding-right: 20px;
@@ -191,6 +198,7 @@ h2 {
     border-radius: 20px;
     font-size: 12px;
     font-family: Arial;
+    font-weight: bold;
     color: rgb(255, 255, 255);
     height: 40px;
     width: 60px;
@@ -203,6 +211,7 @@ h2 {
     border-radius: 20px;
     font-size: 12px;
     font-family: Arial;
+    font-weight: bold;
     color: rgb(255, 255, 255);
     height: 40px;
     width: 60px;
@@ -214,6 +223,7 @@ h2 {
     float: right;
     background-color: rgba(0, 0, 0, 0);
     width: 300px;
+    font-weight: bold;
     height: 70px;
     padding-top: 10px;
     padding-right: 20px;
@@ -225,6 +235,7 @@ h2 {
     border-radius: 20px;
     font-size: 12px;
     font-family: Arial;
+    font-weight: bold;
     color: rgb(255, 255, 255);
     height: 40px;
     width: 60px;
@@ -237,6 +248,7 @@ h2 {
     border-radius: 20px;
     font-size: 12px;
     font-family: Arial;
+    font-weight: bold;
     color: rgb(255, 255, 255);
     height: 40px;
     width: 60px;
@@ -254,6 +266,7 @@ h2 {
     border-radius: 20px;
     font-size: 12px;
     font-family: Arial;
+    font-weight: bold;
     color: rgb(255, 255, 255);
     height: 40px;
     width: 100px;
@@ -266,6 +279,7 @@ h2 {
     border-radius: 20px;
     font-size: 12px;
     font-family: Arial;
+    font-weight: bold;
     color: rgb(255, 255, 255);
     height: 40px;
     width: 60px;
