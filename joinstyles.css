@@ -4,7 +4,8 @@ body {
   }
   
   h1 {
-    font-family: "Arial Black";
+    font-family: Arial;
+    font-weight: bold;
     color:aliceblue;
   }
 
@@ -25,7 +26,8 @@ body {
 
   textarea {
     background-color: rgb(31, 32, 49);
-    font-family: "Arial Black";
+    font-family: Arial;
+    font-weight: bold;
     color: rgb(54, 133, 236);
     padding: 7px;
     border: 0px;
@@ -73,7 +75,8 @@ body {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family: "Arial Black";
+    font-family: Arial;
+    font-weight: bold;
     color: #ffffff;
     font-size: 20px;
     background: #12a0ff;
@@ -96,7 +99,8 @@ body {
 
   input {
     background-color: rgb(31, 32, 49);
-    font-family: "Arial Black";
+    font-family: Arial;
+    font-weight: bold;
     color: rgb(54, 133, 236);
     padding: 7px;
     border: 0px;
@@ -124,6 +128,7 @@ body {
     font-family: arial;
     color:rgba(54, 133, 236, 0.644);
     font-size: 15px;
+    font-weight: bold;
     animation-name: fade-in;
     animation-timing-function: ease-in-out;
     animation-duration: 2s;
@@ -132,7 +137,8 @@ body {
   h2 {
     font-size: 25px;
     color: rgb(54, 133, 236);
-    font-family: "Arial Black";
+    font-family: Arial;
+    font-weight: bold;
     animation-name: fade-in;
     animation-timing-function: ease-in-out;
     animation-duration: 2s;
