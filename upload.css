@@ -8,11 +8,6 @@ body {
   height: 2000px;
   width: 700px;
   margin-top: -8px;
-  animation-name: blur-in;
-  animation-timing-function: ease-out;
-  animation-duration: 2s;
-  filter: drop-shadow(0px 0px 100px #131a2271);
-  
 }
 
 @media only screen and (max-width: 800px) {
@@ -29,10 +24,6 @@ body {
   opacity: 70%;
 }
 
-@keyframes blur-in {
-  from {filter: blur(5px);}
-  to {filter:blur(0px);}
-}
 
 #Logo-icons {
   height: 100px;
