@@ -1,0 +1,242 @@
+body {
+    background-color: rgb(27, 27, 27);;
+}
+
+.item {
+  background-color: rgb(43, 43, 43);
+  width: 450px;
+  height: 340px;
+  justify-content: center;
+}
+
+.img {
+    height:300px;
+    width: 300px;
+}
+
+#t1 {
+    color: #50ffa8;
+    font-family: arial;
+    font-weight: bold;
+    cursor: default;
+    font-size: 35px;
+}
+
+#t2 {
+    color: #ff5050;
+    font-family: arial;
+    font-weight: bold;
+    cursor: default;
+    font-size: 35px;
+}
+
+#t3 {
+    color: #8d50ff;
+    font-family: arial;
+    font-weight: bold;
+    cursor: default;
+    font-size: 35px;
+}
+
+#p1 {
+    color: #afffd7;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: default;
+}
+
+#p2 {
+    color: #ff5050;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: default;
+}
+
+#p3 {
+    color: #8d50ff;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: default;
+}
+
+#p4 {
+    color: #ff50cb;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: default;
+}
+
+#p5 {
+    color: #eeff50;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: default;
+}
+
+#t4 {
+    color: #ff50cb;
+    font-family: arial;
+    font-weight: bold;
+    cursor: default;
+    font-size: 35px;
+}
+
+#t5 {
+    color: #eeff50;
+    font-family: arial;
+    font-weight: bold;
+    cursor: default;
+    font-size: 35px;
+}
+
+.buybtn {
+    background-color: #418dff;
+    border: 0px;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    font-family: arial;
+    font-weight: bold;
+    color:#020611;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+article {
+    color: #2950ff;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: default;
+}
+
+.buybtn > b {
+    color: #000000;
+    transition: 0.4s;
+}
+
+.buybtn:hover {
+    transform: rotate(5deg);
+}
+
+
+/* Page Header */
+
+.top {
+    width: auto;
+    position: fixed;
+    width: 100%;
+    margin: -8px;
+    background-color: rgba(0, 0, 0, 0.822);
+    height: 70px;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+.z-logo {
+    transition: 0.4s;
+    float: left;
+}
+
+.z-logo:hover {
+    filter: drop-shadow(0px 0px 18px #48a7ff);
+}
+
+.sigjj {
+    background-color: rgba(0, 0, 0, 0);
+    width: 70%;
+    height: 70px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.joinbtn {
+    background-color: rgb(53, 58, 124);
+    border:0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 60px;
+    transition: 0.4s;
+}
+
+.crtbtn {
+    background-color: rgb(73, 136, 218);
+    border:0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 60px;
+    transition: 0.4s;
+}
+
+.imgbtn {
+    background-color: rgb(221, 173, 39);
+    border: 0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 100px;
+    transition: 0.4s;
+}
+
+.store {
+    background-color: rgb(94, 39, 221);
+    border: 0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 80px;
+    transition: 0.4s;
+}
+
+#topbutton1:hover {
+    filter: brightness(80%);
+ }
+
+/* Page Header */
+
+@media (max-width: 800px) {
+
+    .item {
+        width: 370px;
+    }
+
+    /* Page Header */
+    .sigjj {
+        transform: translateY(60px);
+    }
+
+    .top {
+        position: fixed;
+        height: 140px;
+        width: 100%;
+    }
+
+    .z-logo {
+        position: fixed;
+        padding-left: 50%;
+        margin-left: -43px;
+        height: 50px; 
+        width: 50px;
+    }
+    /* Page Header */
+}
