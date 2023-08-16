@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.banner {
+    background-color: rgb(204, 204, 204);
+    margin: -8px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(42, 156, 255);
+    cursor: default;
+}
+
+p {
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: default;
+}
+
+#red {
+    color: rgb(255, 105, 105);
+}
+
+#blue {
+    color: rgb(20, 20, 255);
+}
+
+#yellow {
+    color: rgb(99, 99, 99);
+}
+
+#yellow-b {
+    color: rgb(255, 255, 255);
+    background-color: rgb(99, 99, 99);
+}
+
+#yellow-f {
+    border-top: 10px solid rgb(99, 99, 99);
+}
+
+
+#blue-b {
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 20, 255);
+}
+
+#green {
+    color: rgb(20, 114, 52);
+}
+
+#green-f {
+    border-top: 10px solid rgb(20, 114, 52);
+}
+
+#green-b {
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 114, 52);
+}
+
+#red-f {
+    border-top: 10px solid rgb(255, 105, 105);
+}
+
+#blue-f {
+    border-top: 10px solid rgb(20, 20, 255);
+}
+
+.form-bg {
+    background-color: rgb(204, 204, 204);
+    width: 400px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+label {
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    cursor: default;
+}
+
+input {
+    background-color: rgb(156, 156, 156);
+    border: 0px;
+    border-radius: 5px;
+    height: 23px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 0px;
+}
+
+.Request {
+    cursor:pointer;
+    background-color: rgb(255, 105, 105);
+    font-family: arial;
+    border: 0px;
+    color: white;
+    width:100px;
+    height:30px;
+    border-radius: 5px;
+}
+
+select {
+    background-color: rgb(156, 156, 156);
+    border: 0px;
+    border-radius: 5px;
+    height: 23px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+article {
+    color: rgb(255, 72, 72);
+    font-family: arial;
+    font-weight: bold;
+}
+
+select:focus {
+    outline: 0px;
+}

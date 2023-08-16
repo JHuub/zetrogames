@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ZetroGames - Admin Pannel</title>
+        <link rel="icon" href="https://i.ibb.co/bbkY4Xz/zetrogames-logo.png">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="admin.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="banner">
+            <br>
+            <center><h1>Admin Pannel</h1></center>
+        </div>
+        <br>
+        <center><article>
+            if you submit a request and your not a mod then you will be timed out
+        </article></center>
+        <br>
+        <div id="red-f" class="form-bg">
+            <p id="red">Remove</p>
+            <form action="https://formspree.io/f/mpzgpyal" method="POST">
+                <label>
+                    Content URL
+                    <input type="ContentInfo" name="url" required placeholder="https://zetrogames.com/content">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Reason for Removal
+                    <input type="ContentInfo" name="removal" required placeholder="moderation reason...">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Mod Username
+                    <input type="ModInfo" name="user" placeholder="username..." required>
+                </label>
+                <br>
+                <br>
+                <label>
+                    Mod Release Key
+                    <input type="ModInfo" name="user" required placeholder="Release Key..." maxlength="5" minlength="5">
+                </label>
+                <br>
+                <br>
+                <button class="Request" type="submit">Request</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="blue-f" class="form-bg">
+            <p id="blue">Ban Account</p>
+            <form action="https://formspree.io/f/myyqeveo" method="POST">
+                <label>
+                    Username
+                    <input type="ContentInfo" name="url" required placeholder="https://zetrogames.com/accounts">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Reason for Ban
+                    <input type="ContentInfo" name="removal" required placeholder="moderation reason...">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Mod Username
+                    <input type="ModInfo" name="user" placeholder="username..." required>
+                </label>
+                <br>
+                <br>
+                <label>
+                    Mod Release Key
+                    <input type="ModInfo" name="user" required placeholder="Release Key..." maxlength="5" minlength="5">
+                </label>
+                <br>
+                <br>
+                <button class="Request" id="blue-b" type="submit">Request</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="yellow-f" class="form-bg">
+            <p id="yellow">Time Out Account</p>
+            <form action="https://formspree.io/f/mknljern" method="POST">
+                <label>
+                    Username
+                    <input type="ContentInfo" name="url" required placeholder="https://zetrogames.com/accounts">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Reason for Ban
+                    <input type="ContentInfo" name="removal" required placeholder="moderation reason...">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Amount of Time
+                    <input type="ContentInfo" name="removal" required placeholder="2 Months...">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Mod Username
+                    <input type="ModInfo" name="user" placeholder="username..." required>
+                </label>
+                <br>
+                <br>
+                <label>
+                    Mod Release Key
+                    <input type="ModInfo" name="user" required placeholder="Release Key..." maxlength="5" minlength="5">
+                </label>
+                <br>
+                <br>
+                <button class="Request" id="yellow-b" type="submit">Request</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="green-f" class="form-bg">
+            <p id="green">Append User</p>
+            <form action="https://formspree.io/f/mvojkyag" method="POST">
+                <label>
+                    Username
+                    <input type="ContentInfo" name="url" required placeholder="https://zetrogames.com/accounts">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Reason for Append
+                    <input type="ContentInfo" name="removal" required placeholder="moderation reason...">
+                </label>
+                <br>
+                <br>
+                <label for="badge">Badge to Give</label>
+                <select id="badge" name="ContentInfo" required>
+                  <option value="Dev">Dev</option>
+                  <option value="Curator">Curator</option>
+                  <option value="Mod">Mod</option>
+                  <option value="Creator">Creator</option>
+                </select>
+                <br>
+                <br>
+                <label>
+                    Mod Username
+                    <input type="ModInfo" name="user" placeholder="username..." required>
+                </label>
+                <br>
+                <br>
+                <label>
+                    Mod Release Key
+                    <input type="ModInfo" name="user" required placeholder="Release Key..." maxlength="5" minlength="5">
+                </label>
+                <br>
+                <br>
+                <button class="Request" id="green-b" type="submit">Request</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>
