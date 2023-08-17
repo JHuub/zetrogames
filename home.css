@@ -7,10 +7,12 @@ body {
     position: fixed;
     width: 100%;
     margin: -8px;
-    background-color: rgba(0, 0, 0, 0.822);
+    background-color: rgba(0, 0, 0, 0.534);
     height: 70px;
     padding-top: 16px;
     padding-left: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 
