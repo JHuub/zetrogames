@@ -7,6 +7,7 @@ body {
     position: fixed;
     width: 100%;
     margin: -8px;
+    z-index: 1000000000000000000;
     background-color: rgba(0, 0, 0, 0.534);
     height: 70px;
     padding-top: 16px;
