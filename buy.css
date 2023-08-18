@@ -79,6 +79,7 @@ select:focus {
     width: auto;
     position: fixed;
     width: 100%;
+    z-index: 1000000000000000000;
     margin: -8px;
     background-color: rgba(0, 0, 0, 0.534);
     height: 70px;
