@@ -338,6 +338,105 @@ h2 {
 
 /* Featured Content Page */
 
+#A-btn {
+  background-color: rgb(28, 153, 255);
+  width: 60px;
+}
+
+#B-btn {
+  background-color: rgb(255, 61, 61);
+  width: 80px;
+}
+
+#C-btn {
+  background-color: rgb(42, 189, 115);
+  width: 80px;
+}
+
+#D-btn {
+  background-color: rgb(236, 195, 13);
+  width: 70px;
+}
+
+#more-btns {
+  background-color: rgb(63, 63, 63);
+  width: 70px;
+  border: 3px solid rgb(255, 255, 255);
+  float: right;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+.btn-filter {
+  width: 40px;
+  height: 40px;
+  font-family: arial;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 3px solid white;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.btn-filter:hover {
+  transform: rotate(5deg);
+}
+
+#extras {
+  opacity: 0%;
+  font-size: 17px;
+  font-family: arial;
+  color: rgb(164, 85, 255);
+}
+
+a {
+  text-decoration: none;
+  color:rgb(164, 85, 255);
+}
+
+#extrasG {
+  opacity: 0%;
+  font-size: 25px;
+  font-family: arial;
+  font-weight: bold;
+  color: rgb(119, 0, 255);
+}
+
+.btn-zags {
+  width: 120px;
+  height: 40px;
+  font-family: arial;
+  background-color: rgb(57, 57, 255);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 3px solid white;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#none-found {
+  font-family: arial;
+  font-weight: bolder;
+  color: rgb(224, 63, 63);
+  font-size: 20px;
+  display: none;
+}
+
+.btn-zags:hover {
+  transform: rotate(5deg);
+}
+
+#fi {
+  margin: auto;
+  height: 45px;
+}
+
+.filter {
+  background-color: rgb(0, 0, 0);
+  width: 800px;
+  padding: 10px;
+}
+
 #title {
     color: rgb(74, 119, 243);
     font-family: arial;
@@ -367,6 +466,11 @@ pre {
     width: 800px;
     padding: 0px;
     margin: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-clip: content-box;
+    backdrop-filter: opacity(20%);
+    background-position: center;
     transition: 0.4s ease-in-out;
 }
 
@@ -377,29 +481,24 @@ pre {
     padding: 10px;
 }
 
-#one {
-    background-image: url(https://i.ibb.co/37CXkwF/7twcr0.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-clip: content-box;
-    backdrop-filter: opacity(20%);
-    background-position: center;
-}
-
 #find {
     color: rgb(24, 80, 233);
     font-family: arial;
     font-weight: bolder;
     font-size: 2rem;
+    cursor: default;
 }
 
-#two {
-    background-image: url(https://i.ibb.co/2Fr0T9k/image.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-clip: content-box;
-    backdrop-filter: opacity(20%);
-    background-position: center;
+#videos {
+  display: block;
+}
+
+#images {
+  display: block;
+}
+
+#texts {
+  display: block;
 }
 
 #zag {
@@ -423,6 +522,18 @@ a {
    text-decoration-line: none; 
 }
 
+.wrapperSec {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-top: 50px;
+  background-color: rgba(255, 116, 116, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  transition: 0.4s;
+}
+
 /* image post end */
 
 .image:hover {
@@ -431,6 +542,7 @@ a {
   box-shadow: -1px 17px 76px -5px rgba(0,0,0,0.6);
 -webkit-box-shadow: -1px 17px 76px -5px rgba(0,0,0,0.6);
 -moz-box-shadow: -1px 17px 76px -5px rgba(0,0,0,0.6);
+margin-top: -10px;
 }
 
 .text:hover {
@@ -443,11 +555,11 @@ a {
 
 @media (max-width: 900px) {
   .image {
-    width: 400px;
+    width: 350px;
   }
 
   .text {
-    width: 400px;
+    width: 350px;
   }
 
   pre {
@@ -456,6 +568,15 @@ a {
 
   #title {
     font-size: 1rem;
+  }
+
+  #more-btns {
+    font-size: 10px;
+    width: 45px;
+  }
+
+  .filter {
+    width: 350px;
   }
 
   #zag {
