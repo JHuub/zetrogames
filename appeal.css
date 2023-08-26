@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: "Arial Black", Arial;
+    font-size: 30px;
+    color: rgb(102, 138, 255);
+}
+
+label {
+    font-family: "Arial Black", Arial;
+    font-size: 20px;
+    color: black;
+}
+
+button {
+  border: 0px;
+  background-color: rgb(102, 138, 255);
+  width: 70px;
+  height: 30px;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 255, 0);
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+}
