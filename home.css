@@ -1,5 +1,6 @@
 body {
     background-color: rgb(27, 27, 27);
+    background-image: url(https://i.gifer.com/ACQZ.gif);
 }
 
 .top {
@@ -7,7 +8,7 @@ body {
     position: fixed;
     width: 100%;
     margin: -8px;
-    z-index: 1000000000000000000;
+    z-index: 4;
     background-color: rgba(0, 0, 0, 0.534);
     height: 70px;
     padding-top: 16px;
@@ -16,6 +17,196 @@ body {
     -webkit-backdrop-filter: blur(10px);
 }
 
+/* Previews */
+#StoreUpdateMenu {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #5c5edd;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#ZetroTokensUpdateMenu {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #fff065;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#ZetroPlusUpdateMenu {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #ff65a0;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#ZagUpdateMenu {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #d365ff;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#UserAMenu {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #6568ff;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#UserBMenu {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #6568ff;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#UserCMenu {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #6568ff;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#UserDMenu {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #6568ff;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#ContentA {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #6568ff;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#ContentB {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #6568ff;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#ContentC {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #6568ff;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+#ContentD {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(19px);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -8px;
+    font-family: 'Arial Black';
+    color: #6568ff;
+    font-size: 35px;
+    visibility: hidden;
+    cursor: default;
+}
+
+
+#prev-p {
+    font-size: 25px;
+    color: white;
+    font-family: 'Arial Black';
+    z-index: 6;
+}
+
+/* End of Previews */
 
 .store {
     background-color: rgb(94, 39, 221);
@@ -81,21 +272,21 @@ article:hover {
 }
 
 h2 {
-    font-family: Arial;
+    font-family: 'Arial Black';
     font-weight: 4900;
-    color: #48a7ff;
+    color: #76a6ff;
     font-size: 50px;
     font-weight: bold;
-    cursor: pointer;
+    cursor: default;
 }
 
 .bottom {
-    font-family: Arial;
+    font-family: 'Arial Black';
     font-weight: bold;
-    color: #3376c4;
+    color: #ffffff;
     font-size: 30px;
     font-weight: bold;
-    cursor: pointer;
+    cursor: default;
 }
 
 
@@ -508,7 +699,7 @@ pre {
 }
 
 #find {
-    color: rgb(24, 80, 233);
+    color: rgb(93, 136, 255);
     font-family: arial;
     font-weight: bolder;
     font-size: 2rem;
